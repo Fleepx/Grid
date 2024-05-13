@@ -18,11 +18,12 @@ header{
     background-color: rgba(216, 150, 8, 0.932);
     height: 5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 #nombre {
-    margin-left: 5rem;
+    margin-left: 16rem;
+    font-size: 3.5rem;
     color: rgba(201, 4, 4, 0.781);
 }
 #nombre span {
@@ -30,34 +31,33 @@ header{
 }
 #buscador {
     width:  25rem ;
+    height: 20px;
 }
 #buscar {
     border: none;
-    padding: 2px;
+    padding: 4px;
     cursor: pointer;
-}
-form {
-    margin-right:8rem ;
+    margin-right: 21px;
 }
 .iconos  {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    margin-left: 8rem;
+    gap: 2rem;
+    margin-right: 3rem;
 }
 .fa-cart-shopping {
     cursor: pointer;
 }
 #login {
     border: none;
-    padding: 5px;
+    padding: 8px;
     background-color:rgba(201, 4, 4, 0.781);
     cursor: pointer;
     color: white;
 }
 #register {
     border: none;
-    padding: 5px;
+    padding: 8px;
     background-color: rgba(252, 223, 60, 0.849);
     cursor: pointer;
 }
@@ -77,7 +77,6 @@ ul {
     gap: 5px;
 }
 #categorias {
-    text-align: center;
     margin-bottom: 5px;
 }
 a {
@@ -90,6 +89,7 @@ li span {
 }
 .anuncio   {
     height: 65%;
+    font-size: large;
     display: flex;
     align-items: center;
     background-image: url(../imgs/Sanji.webp);
@@ -155,15 +155,17 @@ footer{
     height: 5rem;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: rgba(216, 150, 8, 0.932);
     color:white;
+    padding-left: 1rem;
+    padding-right: 3rem;
 }
 .social {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     color: black;
 }
 .fa-facebook {
@@ -180,5 +182,4 @@ footer{
 }
 .datos {
     font-size: smaller;
-    text-align: center;
 }
