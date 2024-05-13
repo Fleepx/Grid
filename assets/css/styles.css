@@ -42,7 +42,7 @@ header{
 .iconos  {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-right: 3rem;
 }
 .fa-cart-shopping {
