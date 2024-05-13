@@ -2,3 +2,135 @@
     margin: 0;
     padding: 0;
 }
+/*GRID*/
+.grid-container  {
+    display: grid;
+    grid-template-areas:
+    "header header header header header"
+    "menu main main main main"
+    "footer footer footer footer footer";
+}
+/*HEADER*/
+header{
+    grid-area: header;
+    background-color: rgba(216, 150, 8, 0.932);
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nombre {
+    color: red;
+}
+#nombre span {
+    color: yellow;
+}
+#buscador {
+    width:  25rem ;
+}
+#buscar {
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+/*MENU*/
+menu{
+    grid-area: menu;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    list-style: none;
+    gap: 5px;
+}
+#categorias {
+    text-align: center;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none; 
+    color: inherit;
+    cursor: pointer;
+}
+.anuncio   {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-image: url(../imgs/Sanji.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+}
+.anuncio:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../imgs/Sanji.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*MAIN*/
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 1rem;
+    height: 83vh;
+    overflow-y: auto;
+    width: 100%;
+}
+.tarjeta {
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.tarjeta:hover {
+    background-color: rgba(230, 230, 230, 0.548);
+}
+img {
+    height: 30rem;
+    border: black 1px solid;
+}
+figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+}
+.precio {
+    color: rgb(124, 124, 124);
+}
+.comprar {
+    border: none;
+    background-color:rgb(119, 13, 10);
+    color: aliceblue;
+    cursor: pointer;
+}
+/*FOOTER*/
+footer{
+    padding-top: 4px;
+    grid-area: footer;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(216, 150, 8, 0.932);
+    color:white;
+}
+.social {
+    display: flex;
+    gap: 1rem;
+    color: black;
+}

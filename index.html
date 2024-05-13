@@ -3,20 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
+    <title>Action</title>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/76066ff5d0.js" crossorigin="anonymous"></script>
     
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <header>
+    <div class="grid-container">
+        <header>
+            <h1 id="nombre">Tokyo<span>Shop</span></h1>
+            <form action="/buscar"  method="GET">
+                <label for="busqueda"></label>
+                <input id="buscador" type="text" id="busqueda" name="barra">
+                <button id="buscar" type="submit">Buscar</button>
+            </form>
+            <div class="iconos">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
 
-    </header>
-    <main>
+        </header>
+        <menu>
+            <ul>
+                <li><h3 id="categorias">Categorias</h3></li>
+                <hr>
+                <a href=""><li>Todo <span>(87)</span></li></a>
+                <a href=""><li>Dragon Ball <span>(15)</span></li></a>
+                <a href=""><li>Kimetsu no Yaiba <span>(10)</span></li></a>
+                <a href=""><li>One Piece <span>(20)</span></li></a>
+                <a href=""><li>Pokémon <span>(12)</span></li></a>
+                <a href=""><li>Sakura Card Captor <span>(8)</span></li></a>
+                <a href=""><li>Shingeki no Kiojin <span>(22)</span></li></a>
+            </ul>
+            <div class="anuncio">
+                <h2>¡Rrevisa Lo Nuevo que tenemos para ti!</h2>
+            </div>
+        </menu>
+        <main>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Demon-Slayer-figura-de-Anime-Kamado-Tanjirou-figura-de-acci-n-para-adultos-estatua-de-adornos.jpg_.webp" alt="Figura Demon Slayer">
+                <figcaption>
+                    <h3>Kamado Tanjiro <span class="precio">$87.990</span> </h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Bandai-figura-DE-ACCI-N-DE-Luffy-de-una-pieza-estatua-de-PVC-modelo-coleccionable-juguetes.jpg_.webp" alt="Figura Luffy">
+                <figcaption>
+                    <h3>Monkey D. Luffy <span class="precio">$132.990</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Figma-estatua-de-juguete-de-Dragon-Ball-Kit-de-garaje-decoraci-n-de-sobremesa-modelo-de.jpg_.webp" alt="Figura Goku Kaiyoken">
+                <figcaption>
+                    <h3>Son Goku Kaiyoken  x20 <span class="precio">$232.990</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Figura-DE-ACCI-N-DE-Kimetsu-No-Yaiba-estatua-de-Anime-de-Demon-Slayer-GK-Tsugikuni.jpg_.webp" alt="Figura Kamado Tanjiro Demonio">
+                <figcaption>
+                    <h3>Kamado Tanjiro Demonio <span class="precio">$98.870</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Figura-DE-ACCI-N-DE-KOTOBUKIYA-Levi-Ackerman-Attack-on-Titan-modelo-coleccionable-adorno-de-estatuilla.jpg_.webp" alt="Figura Levi Ackerman">
+                <figcaption>
+                    <h3>Levi Ackerman <span class="precio">$61.820</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Figura-de-acci-n-de-One-Piece-juguete-coleccionable-de-PVC-God-Gear-5-Nika-Luffy.jpg_.webp" alt="Figura Monkey  D Luffy">
+                <figcaption>
+                    <h3>Monkey D. Luffy Gear 5 <span class="precio">$52.520</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/Figura-de-acci-n-de-Pok-mon-Gengar-Battle-Ver-estatua-de-Pvc-modelo-de-Anime.jpg_640x640.jpg_.webp" alt="Figura Gengar">
+                <figcaption>
+                    <h3>Gengar <span class="precio">$72.320</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
+            <figure class="tarjeta">
+                <img src="./assets/imgs/ARTFX-J-Sakura-Cardcaptor-figura-Kinomoto-Sakura-Cerberus-Anime-Girl-PVC-figura-de-acci-n-estatua.jpg_.webp" alt="Figura Sakura Card Captor">
+                <figcaption>
+                    <h3>Sakura Card Captor <span class="precio">$33.250</span></h3>
+                    <button class="comprar">Añadir al Carro</button>
+                </figcaption>
+            </figure>
 
-    </main>
-    <footer>
 
-    </footer>
+
+        </main>
+        <footer>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="datos">
+                <hr>
+                <p>Todos los derechos reservados - TokyoShop®</p>
+                <p><i class="fa-solid fa-location-dot"></i> Carlos Antúnez 1050, Providencia  Chile</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
