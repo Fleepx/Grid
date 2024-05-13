@@ -147,6 +147,7 @@ figcaption {
     background-color:rgb(119, 13, 10);
     color: aliceblue;
     cursor: pointer;
+    padding: 3px;
 }
 /*FOOTER*/
 footer{
