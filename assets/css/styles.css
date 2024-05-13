@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Reddit Sans", sans-serif;
+
 }
 /*GRID*/
 .grid-container  {
@@ -20,10 +22,11 @@ header{
     align-items: center;
 }
 #nombre {
-    color: red;
+    margin-left: 5rem;
+    color: rgba(201, 4, 4, 0.781);
 }
 #nombre span {
-    color: yellow;
+    color: rgba(252, 223, 60, 0.849);
 }
 #buscador {
     width:  25rem ;
@@ -31,6 +34,31 @@ header{
 #buscar {
     border: none;
     padding: 2px;
+    cursor: pointer;
+}
+form {
+    margin-right:8rem ;
+}
+.iconos  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 8rem;
+}
+.fa-cart-shopping {
+    cursor: pointer;
+}
+#login {
+    border: none;
+    padding: 5px;
+    background-color:rgba(201, 4, 4, 0.781);
+    cursor: pointer;
+    color: white;
+}
+#register {
+    border: none;
+    padding: 5px;
+    background-color: rgba(252, 223, 60, 0.849);
     cursor: pointer;
 }
 /*MENU*/
@@ -41,7 +69,7 @@ menu{
     flex-direction: column;
 }
 ul {
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -57,8 +85,11 @@ a {
     color: inherit;
     cursor: pointer;
 }
+li span {
+    color: rgb(124, 124, 124);
+}
 .anuncio   {
-    height: 70%;
+    height: 65%;
     display: flex;
     align-items: center;
     background-image: url(../imgs/Sanji.webp);
@@ -67,6 +98,7 @@ a {
     background-position: center;
     color: aliceblue;
     text-align: center;
+    cursor: pointer;
 }
 .anuncio:hover {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(../imgs/Sanji.webp);
@@ -133,4 +165,16 @@ footer{
     display: flex;
     gap: 1rem;
     color: black;
+}
+.fa-facebook {
+    color: rgb(36, 36, 255);
+    cursor: pointer;
+}
+.fa-twitter {
+    color: deepskyblue;
+    cursor: pointer;
+}
+.fa-youtube {
+    color: red;
+    cursor: pointer;
 }
