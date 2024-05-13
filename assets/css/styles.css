@@ -178,3 +178,6 @@ footer{
     color: red;
     cursor: pointer;
 }
+.datos {
+    font-size: smaller;
+}
