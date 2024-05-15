@@ -24,7 +24,7 @@ header{
 #nombre {
     margin-left: 16rem;
     font-size: 3.2rem;
-    color: #FF6600;
+    color: #a364ff;
 }
 #nombre span {
     color: #ffffa1;
@@ -51,7 +51,7 @@ header{
 #login {
     border: none;
     padding: 8px;
-    background-color:#FF6600;
+    background-color:#a364ff;
     cursor: pointer;
     color: white;
 }
@@ -137,7 +137,7 @@ main{
 .container {
     height: 30rem;
     overflow:hidden;
-    border: black 1px solid;
+    border: #ff983f 1px solid;
 }
 img {
     height: 30rem;
@@ -160,10 +160,11 @@ figcaption {
 .comprar {
     border: none;
     width: 10rem;
-    background-color:#FF6600;
+    background-color:#a364ff;
     color: aliceblue;
     padding: 3px;
     cursor: pointer;
+    border-radius: 20px;
 }
 .botones  {
     display: flex;
